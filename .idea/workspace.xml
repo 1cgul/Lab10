@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df77206-29aa-4ae1-a3a2-5295f30800b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DoublyLinkedListDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Stack/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Stack/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Stack/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Stack/StackAndQueueDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="1df77206-29aa-4ae1-a3a2-5295f30800b2" name="Changes" comment="added toArray()" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +56,18 @@
       <option name="presentableId" value="Default" />
       <updated>1681410244850</updated>
     </task>
+    <task id="LOCAL-00001" summary="added toArray()">
+      <created>1681450842597</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681450842597</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added toArray()" />
+    <option name="LAST_COMMIT_MESSAGE" value="added toArray()" />
   </component>
 </project>
