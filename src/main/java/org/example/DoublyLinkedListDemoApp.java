@@ -42,5 +42,9 @@ public class DoublyLinkedListDemoApp {
       for(int i = 0; i < arr.length; i++){
          System.out.print(arr[i] + " ");
       }
+      System.out.println();
+
+      System.out.println(numList.indexOf(14) + " " + numList.indexOf(2) + " "
+                        + numList.indexOf(16) + " " + numList.indexOf(20));
    }
 }

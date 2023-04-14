@@ -108,7 +108,18 @@ public class DoublyLinkedList {
       }
       return arr;
    }
-   //public int indexOf(DoublyLinkedList list){
+   public int indexOf(int target){
+      Node currentNode = head;
+      int index = 0; //array starts at 0
+      while(currentNode != null){
+         if(currentNode.data == target){//if node is found, return the index
+            return index;
+         }
+         index++;
+         currentNode = currentNode.next;
+      }
+      return -1; //didnt find target
+   }
 
    //}
    public void sumOfAllElements(DoublyLinkedList list){
