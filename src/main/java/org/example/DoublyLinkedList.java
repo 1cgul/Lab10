@@ -122,7 +122,18 @@ public class DoublyLinkedList {
    }
 
    //}
-   public void sumOfAllElements(DoublyLinkedList list){
-
+   public int sumOfLastElements(int m){
+      Node currentNode = tail;
+      int sum = 0;
+      int countCycles = 0;
+      while(currentNode != null){
+         if(m == countCycles){
+            return sum;
+         }
+         countCycles++;
+         sum+=currentNode.data;
+         currentNode = currentNode.previous;
+      }
+      return sum;
    }
 }

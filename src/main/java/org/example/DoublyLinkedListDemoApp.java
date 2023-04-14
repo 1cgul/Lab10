@@ -42,9 +42,19 @@ public class DoublyLinkedListDemoApp {
       for(int i = 0; i < arr.length; i++){
          System.out.print(arr[i] + " ");
       }
+
       System.out.println();
 
-      System.out.println(numList.indexOf(14) + " " + numList.indexOf(2) + " "
-                        + numList.indexOf(16) + " " + numList.indexOf(20));
+      //indexOf()
+      System.out.println(numList.indexOf(14) + " "
+                        + numList.indexOf(2) + " "
+                        + numList.indexOf(16) + " "
+                        + numList.indexOf(20));
+
+      //sumOfLastElements()
+      System.out.println(numList.sumOfLastElements(1) + " "
+                        + numList.sumOfLastElements(2) + " "
+                        + numList.sumOfLastElements(3) + " "
+                        + numList.sumOfLastElements(4));
    }
 }
